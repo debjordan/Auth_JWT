@@ -121,9 +121,3 @@ Este projeto implementa duas APIs REST em C# usando ASP.NET Core (.NET 8) para a
 - **API não responde**:
   - Confirme que as portas 5000 (API 1) e 5001 (API 2) estão livres.
   - Verifique se os projetos estão rodando corretamente (`dotnet run`).
-
-## Notas
-
-- A chave secreta deve ser idêntica em ambas as APIs.
-- Para testes avançados, use Postman para inspecionar tokens e respostas.
-- Este projeto é uma base para aprendizado e pode ser expandido com autenticação mais robusta (ex.: OAuth2).
